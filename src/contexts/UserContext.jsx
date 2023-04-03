@@ -18,7 +18,7 @@ const UserProvider = ({ children }) => {
         try {
           api.defaults.headers.authorization = `Bearer ${token}`;
 
-          const { data } = await api.get("/profile");
+          const { data } = await api.get("/user");
 
           setUser(data);
         } catch (error) {
@@ -32,7 +32,7 @@ const UserProvider = ({ children }) => {
   }, []);
 
   const login = async (data) => {
-    const response = await api.post("/sessions", data);
+    const response = await api.post("/login", data);
     const { user: userResponse, token } = response.data;
 
     api.defaults.headers.authorization = `Bearer ${token}`;
@@ -44,7 +44,7 @@ const UserProvider = ({ children }) => {
   };
 
   const registerFunc = async (data) => {
-    await api.post("/users", data);
+    await api.post("/user", data);
 
     navigate("/login", { replace: true });
   };

@@ -123,6 +123,7 @@ export const StyledMain = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   background-color: var(--color-grey-4);
 
@@ -192,4 +193,50 @@ export const RegisterContainer = styled.div`
     background-color: var(--color-grey-2);
     border: 1.2182px solid var(--color-grey-2);
   }
+`;
+
+export const Container = styled.div`
+  width: 80%;
+  height: 80%;
+
+  display: flex;
+  align-items: center;
+`;
+
+export const TextContainer = styled.div`
+  width: 80%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+
+export const UserContainer = styled.div`
+  width: 80%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const StyledTitle = styled.h1`
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 26px;
+  color: var(--color-grey-0);
+  text-align: center;
+  line-height: 1;
+  padding-bottom: 2rem;
+`;
+
+export const StyledSpan = styled.span`
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 26px;
+  color: var(--color-primary-hover);
+  text-align: center;
+  line-height: 1;
+  padding-bottom: 8rem;
 `;

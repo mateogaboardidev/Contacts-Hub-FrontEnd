@@ -91,7 +91,7 @@ export const StyledForm = styled.form`
   }
 
   span {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
     font-weight: 400;
     font-size: 12.182px;

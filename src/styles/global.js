@@ -5,13 +5,15 @@ const GlobalStyle = createGlobalStyle`
 :root {
     --color-primary: #00b4d8;
     --color-primary-hover: #0077b6;
-    --color-primary-negative: #caf0f8;
+    --color-primary-negative: #bbd2ec;
 
     --color-grey-4: #121214;
     --color-grey-3: #212529;
     --color-grey-2: #343B41;
     --color-grey-1: #868E96;
     --color-grey-0: #F8F9FA;
+
+	--color-negative: #E83F5B;
 
     --font-base: 'Roboto Mono', monospace;; 
 }
