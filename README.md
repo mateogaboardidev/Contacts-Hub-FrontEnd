@@ -23,6 +23,7 @@ Deleção do contato - O cliente pode realizar a deleção de um contato.
 FRONT END - 
 
 Utilize o comando yarn para instalar as dependencias da aplicação.
+Utilize o comando yarn start para rodar a aplicação.
 
 
 
